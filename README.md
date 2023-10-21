@@ -1,3 +1,5 @@
+I completed the following frontend coding challenge, which is the landing page for a graphic design agency as described below. This challenge was from the Frontend Mentor website:
+
 # Frontend Mentor - Sunnyside agency landing page
 
 ![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
