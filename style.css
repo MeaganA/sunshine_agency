@@ -1,0 +1,557 @@
+body {
+    margin: auto;
+    font-size: 62.5%;
+}
+
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h4, button {
+    font-family: 'Fraunces', serif;
+} 
+
+.hidden-mobile-1 {
+    display: none;
+}
+
+
+/********************HERO SECTION********************/
+
+.logo, header nav {
+    margin: 20px 40px 0;
+} 
+
+.logo {
+    width: 12%;
+}
+
+/********************NAVBAR - DESKTOP********************/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ ul {
+    display: flex;
+    align-items: center;
+} 
+
+.navigation ul li {
+    list-style: none;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-left: 47px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navigation ul li a:hover {
+    opacity: .5;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.hero h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 130px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.54688rem;
+    font-family: 'Fraunces', serif;   
+}
+
+
+.hero img {
+    position: relative;
+    top: 75px;
+    left: 50%;
+}
+
+button {
+    background-color: #FFFFFF;
+    color: hsl(212, 27%, 19);
+    border-style: none;
+    padding: 16px 32px;
+    border-radius: 28px;
+    font-size: .9375rem;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 100%, .3);
+    color: #FFFFFF;
+}
+
+/********************BRAND / AUDIENCE SECTIONS - DESKTOP********************/
+
+.brand, .audience {
+    display: flex;
+}
+
+.brand img, .brand-details, .audience img, .audience-details {
+    width: 50%;
+}
+
+.brand-details, .audience-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-details h2, .brand-details p, .audience-details h2, .audience-details p {
+    width: 475px;
+    margin: 25px 0;
+}
+
+.brand-details h2, .audience-details h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.brand-details p, .audience-details p {
+    font-size: 1.125rem;
+    color: hsl(233, 10%, 55%);
+    font-weight: 600;
+    letter-spacing: -0.00806rem;
+    line-height: 1.875rem;
+    
+}
+
+.brand-details a, .audience-details a {
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: .9375rem;
+    color: hsl(212, 27%, 19%);
+    text-decoration: none;
+    letter-spacing: 0.0625rem;
+    position: relative;
+    right: 170px;
+    display: block;
+}
+
+.line, .line-2 {
+    width: 130px;
+    height: 10px;
+    border-radius: 28px;
+    position: relative;
+    right: 5px;
+    bottom: 8px;
+    z-index: -1;
+    
+}
+
+.line {
+    background-color: #FAD400;
+    opacity: .25;
+}
+
+.line-2 {
+    background-color: #FE7766;
+    opacity: .25;
+}
+
+
+/********************SERVICES SECTIONS********************/
+.services {
+    margin-top: -15px;
+    display: flex;
+}
+
+.graphic-design {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+}
+   
+
+.photography {
+    background-image: url(images/desktop/image-photography.jpg);
+}
+
+.graphic-design, .photography {
+    width: 50%;
+    height: 70vh;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.graphic-design > h2, .photography > h2 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    letter-spacing: -0.0125rem;
+    margin-bottom: 13px;
+}
+
+.graphic-design {
+    color: hsl(166, 40%, 24%);
+}
+
+.photography {
+    color: hsla(197, 86%, 12%);
+}
+
+.graphic-design > p, .photography > p {
+    width: 35%;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6875rem;
+    letter-spacing: -0.00713rem;
+    margin-top: 13px;
+}
+
+/********************CLIENT TESTIMONIALS SECTION - DESKTOP********************/
+
+.client-testimonials {
+    padding: 160px 165px;
+}
+.client-testimonials h2 {
+    color: hsl(210, 4%, 67%);
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 0.3125rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.testimonials img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 4.5rem;
+    margin-bottom: 58px;
+}
+
+.testimonials p {
+    color: hsl(213, 9%, 39%);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: -0.00806rem;
+}
+
+.emily, .thomas, .jennie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emily h4, .thomas h4, .jennie h4 {
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+.emily span, .thomas span, .jennie span {
+    color: hsl(210, 4%, 67%);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.jennie p, .emily p {
+    width: 70%;
+}
+
+.thomas p {
+    width: 65%;
+}
+
+/********************PHOTO GALLERY - DESKTOP********************/
+
+.gallery-desktop {
+    display: flex;
+}
+
+.gallery-desktop img {
+    width: 25%;
+}
+
+
+/********************FOOTER - DESKTOP********************/
+
+footer{
+    background-color: hsl(168, 44%, 70%);
+    padding: 72px 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 170px
+}
+.footer-nav ul {
+    padding-left: 0;
+    margin: 40px 0;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: hsl(168, 45%, 32%); 
+}
+
+.footer-nav ul li {
+    font-size: 1.125rem;
+}
+
+.footer-nav ul li:nth-child(1) {
+    margin-left: 12px;
+}
+
+.footer-nav ul li:nth-child(2) {
+    margin: 0 57px;
+}
+ 
+.social-media li, .footer-nav ul li {
+    list-style: none;
+}
+
+.social-media li:nth-child(2), .social-media li:nth-child(4) {
+    margin: 0 28px;
+}
+
+.social-media {
+    margin-bottom: 30px;
+}
+
+.footer-nav a:hover {
+    color: #FFFFFF;
+}
+
+.social-media img:hover {
+    filter: brightness(0) saturate(100%) invert(95%) sepia(70%) saturate(2%) hue-rotate(162deg) brightness(112%) contrast(101%);
+}
+/****************************MEDIA QUERY - DESKTOP******************************/
+
+@media screen and (min-width: 870px) {
+    .hidden-mobile {
+        display: none;
+    }
+    
+}
+
+/******************************MEDIA QUERY - MOBILE*****************************/
+
+@media screen and (max-width: 375px) {
+    .hidden-desktop {
+        display: none;
+    }
+
+    /********************HEADER - MOBILE********************/
+
+    header {
+        width: 100%;
+        height: 100vh; 
+        background: url(images/mobile/image-header.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logo {
+        margin-left: 25px;
+        width: 30%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero img {
+        left: 45%
+    }
+
+    .hamburger-icon {
+        margin-right: 25px;
+    }
+
+    .hamburger-icon:hover {
+        opacity: .5;
+    }
+
+    /********************HAMBURGER MENU - MOBILE********************/
+
+    .hamburger-menu {
+        width: 87%;
+        height: 305px;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 38px;
+        left: -16px;
+        clip-path: polygon(90% 11%, 100% 0, 100% 100%, 0 100%, 0 11%);
+    }
+
+    .hamburger-menu ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin: 50px 95px;
+
+    }
+
+    .hamburger-menu li {
+        list-style: none;
+        font-size: 1.25rem;
+        margin: 15px 0;
+    }
+
+
+    .hamburger-menu a {
+        text-decoration: none;
+        color: hsl(232, 10%, 55%);
+    }
+   
+    .hamburger-menu button {
+        color: hsl(212, 27%, 19%);
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    
+
+    /********************BRAND/AUDIENCE SECTIONS - MOBILE********************/
+
+    .brand  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .audience {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-details h2, .audience-details h2 {
+        font-size: 2rem;
+    }
+
+    .brand-details a, .audience-details a {
+        position: inherit;
+    }
+
+    .brand img, .audience img {
+        width: 100%;
+    }
+
+    .brand-details, .audience-details {
+        text-align: center;
+        width: 87%;
+        margin: 60px 24px;
+    }
+
+    .audience-details h2, .audience-details p, .brand-details h2, .brand-details p {
+        width: fit-content;
+    }
+
+    /********************SERVICES SECTION - MOBILE********************/
+
+    .services, .testimonials {
+        flex-direction: column;
+    }
+
+    .graphic-design, .photography {
+        width: 100%;
+    }
+
+    .graphic-design p, .photography p {
+        width: 85%;
+        margin-bottom: -20px;
+    }
+
+    /********************CLIENT TESTIMONIALS SECTION - MOBILE********************/
+
+    .client-testimonials {
+        padding: 64px 0;
+    }
+
+    .client-testimonials h2 {
+        font-size: 1rem;
+    }
+
+    .testimonials {
+        padding-top: 0;
+    }
+
+    .testimonials img {
+        margin-bottom: 0;
+    }
+
+    .thomas, .jennie, .emily {
+        margin: 64px 0;
+    }
+
+    .emily p, .thomas p {
+        width: 85%;
+    }
+    
+    .jennie p {
+        width: 90%;
+    }
+
+    .emily h4, .thomas h4, .jennie h4 {
+        margin: 0 0 9px 0;
+    }
+
+    /********************PHOTO GALLERY - MOBILE********************/
+
+    .gallery-mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-mobile img {
+        width: 50%;
+    }
+
+    /********************FOOTER - MOBILE********************/
+
+    footer {
+        padding: 72px 0;
+    }
+}
+
+
+
+/********************ATTRIBUTION********************/
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(167, 67%, 18%); 
+    position: relative;
+    top: 45px;
+}
+
+.attribution a { 
+    color: hsl(168, 45%, 32%); 
+}
